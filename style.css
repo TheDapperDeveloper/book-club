@@ -1,0 +1,223 @@
+body{
+    background-color: #e3b86e;
+    color:#6E99E3;
+    font-family: 'Varela Round', sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    font-size: 1.5vw;     
+}
+
+li {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+a {
+    display: block;
+    padding: 8px;
+    font-family: 'Varela Round', sans-serif; 
+    text-decoration: none;
+    color:#6E99E3;
+}
+
+a:hover{
+    text-transform: uppercase;
+    color: white;
+  }
+
+input { 
+    color: #154aa4;
+    font-family: 'Varela Round', sans-serif;
+    font-size: medium;
+    border-radius: 5px;
+    border-color: #154aa4;
+    margin: 5px;
+    width: 200px;
+}
+button { 
+    background-color: white;
+    color: #154aa4;
+    font-family: 'Varela Round', sans-serif;
+    font-size: medium;
+    border-radius: 5px;
+    border-color: #154aa4;
+    width: 150px;
+    
+}
+.main-container {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center; 
+}
+
+.book-title {
+    margin-top: 30px;
+}
+
+/* .info-container {
+    display: flex;
+    flex-direction: column;
+    float: right;
+} */
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    padding: 0px;
+    font-size: 2vw;
+    
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    margin: 0px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    margin: 5px;
+
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    margin: 5px;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    border: 1px white;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    width: 634px;
+
+}
+
+@media only screen and (max-width:1290px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;  
+        right: 2px;
+        width: 500px;
+        margin-right: 100px;
+    }
+    .info-container {
+         display: flex;
+        flex-direction: column;
+       
+        }
+    .photo {
+         display: flex;
+        
+        margin: 20px;
+        
+        }
+
+ @media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+
+        body{
+            width: 375px;
+        }
+
+
+        ul {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .main-container {
+            display: flex;
+            align-content: flex-end;
+            width: 18vh;
+        }
+        .info-container {
+             display: flex;
+            flex-direction: column;
+            }
+            h1 {
+                display: flex;
+                justify-content: center;
+                font-weight: normal;
+                padding: 0px;
+                font-size: 3vw;
+                
+            }
+            
+            h2{
+                display: flex;
+                justify-content: center;
+                font-weight: normal;
+                margin: 0px;
+                font-size: 3vw;
+            }
+            
+            h3 {
+                display: flex;
+                font-weight: normal;
+                margin: 5px; 
+                font-size: 3vw;
+            
+            }
+            
+            h4 {
+                display: flex;
+                justify-content: center;
+                font-weight: normal;
+                margin: 5px;
+                font-size: 2vw;
+            }
+
+            .input {
+                display: flex;
+                justify-content: center;
+    
+                color: black;
+                font-family: 'Varela Round', sans-serif;
+                font-size: 2vw;
+                width: 75%;
+                
+            }
+            button { 
+                display: flex;
+                justify-content: center;
+                background-color: white;
+                color: black;
+                font-family: 'Varela Round', sans-serif;
+                font-size: 2vw;
+                border-radius: 5px;
+                margin-top: 5px;
+                width: 50%;
+            
+            }
+/* 
+            img {
+                display: flex;
+                justify-content: center;
+                width: 50%;
+                margin: 10px;
+            } */
+
+
+    }
+    }
